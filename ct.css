@@ -1,0 +1,477 @@
+@charset "utf-8";@import url('https://fonts.googleapis.com/css?family=Roboto:300');@import url('https://fonts.googleapis.com/css?family=Roboto:900');@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+/* CSS Document */
+html,body{ height:100%; width:100%; padding:0px; margin:0px; position:relative; background-image:url(images/025.jpg); background-repeat:repeat; font-family:'Roboto', sans-serif;letter-spacing:0.3px; line-height:30px;}
+h1{ font-family:'Roboto', sans-serif; font-weight:300; text-transform:uppercase; padding-top:3%;}
+p{ font-family:'Roboto', sans-serif; letter-spacing:0.3px; line-height:30px; font-weight:500; text-align:justify;font-size:19px; color:rgba(51,51,51,0.7);}
+ul,li{ font-family:'Roboto', sans-serif; letter-spacing:0.3px; line-height:30px; font-weight:500; text-align:justify; font-size:19px; color:rgba(51,51,51,0.7);}
+.row:after,.row:before{display:table;content:" "}.row:after{clear:both}
+.space{ padding-top:20%;}
+.label1{ font-family:'Roboto', sans-serif; font-weight:900; font-size:96px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase; text-shadow:rgba(51,51,51,1) 1px 5px 10px;}
+.label2{ font-family:'Roboto', sans-serif; font-weight:900; font-size:36px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase;color:rgba(165,42,42,1);}
+.label3{ font-family:'Roboto', sans-serif; font-weight:500; font-size:26px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase;color:rgba(165,42,42,1);}
+.Lp{
+	width:100%;
+	background-image:/*url(images/clarisse-meyer-162874.jpg),*/ url(images/banner-2.jpg);
+	background-position:center;
+	background-size:cover;
+	color:rgba(255,255,255,1);
+	height:100%;
+	background-repeat:no-repeat;
+	padding:0%;
+}
+.pcontent{
+	padding-top:4%;
+	padding-bottom:4%;
+	padding-left:15%;
+	padding-right:15%;
+}
+img{width:100%; margin-left:auto; margin-right:auto;}
+.jb{width:75%; margin-top:4%;}
+.bio{width:70%; margin-left:auto; margin-right:auto;}
+.bcol{ width:50%; margin-left:auto; margin-right:auto; float:left; text-align:center;}
+.btn{ border:1px solid white; text-shadow:rgba(51,51,51,0.9) 1px 1px 2px; border-radius:3px; padding:15px; display:inline-block; margin:20px; margin-top:5%; box-shadow:rgba(51,51,51,1) 1px 3px 10px; background-color:rgba(255,255,255,0.3);}
+a.lab:link { color:#FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:visited { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:hover { color: #FFF; text-decoration:underline; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:active { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+.colb{width:50%; float:left;}
+.colgap{ padding-left:5%; padding-right:5%;}
+.1{ width:50%;}
+/**************Navigation************/
+.nav{
+	position:fixed;
+	width:100%;
+	height:5.3%;
+	padding-left:5%;
+	padding-right:5%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Roboto', sans-serif; font-weight:500;
+	background-color:rgba(51,51,51,0.7);
+	color:rgba(234,234,234,1);
+	z-index:20;
+	text-transform:uppercase;
+	word-spacing:10.5px;
+	font-size:2.0vh;
+	padding-top:0.6%;
+	display:block;
+}
+a.nc:link { color:rgba(235,235,235,1); text-decoration:none;}
+a.nc:visited { color:rgba(235,235,235,1); text-decoration:none;}
+a.nc:hover { color:rgba(235,235,235,1); text-decoration:underline;}
+a.nc:active { color:rgba(235,235,235,1); text-decoration:none;}
+.mnav{
+	position:absolute;
+	width:100%;
+	height:250%;
+	padding-left:5%;
+	padding-right:5%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Roboto', sans-serif; font-weight:500;
+	background-color:rgba(51,51,51,0.3);
+	color:rgba(234,234,234,1);
+	z-index:19;
+	text-transform:uppercase;
+	word-spacing:10.5px;
+	font-size:2.0vh;
+	padding-top:0.6%;
+	display:none;
+}
+.words{ font-family:'Roboto', sans-serif; font-weight:500; font-size:18px; font-style:italic; padding-left:5%; padding-right:5%;color:rgba(51,51,51,0.7);}
+.client{ font-family:'Roboto', sans-serif; font-weight:300; font-size:16px; text-align:center; padding-left:5%; padding-right:5%;color:rgba(51,51,51,0.7);}
+/**************Navigation************/
+.foot{
+	width:100%;
+	background-color:rgba(51,51,51,1);
+}
+.fcol{ width:50%; color:rgba(235,235,235,1); float:left; text-align:center; background-color:rgba(51,51,51,0.6); padding-top:1%; padding-bottom:1%;}
+a.fl:link { color:#FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:visited { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:hover { color: #FFF; text-decoration:underline; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:active { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+/*****************Contact******************/
+.cont{
+	width:50%; font-family:'Roboto', sans-serif; font-weight:500; color:rgba(51,51,51,1); font-size:20px; padding-top:1%; line-height:40px;
+	float:left;
+}
+.contact{ width:100%; padding:12%; color:rgba(51,51,51,0.7);}
+
+@media only screen and (max-width: 1600px){
+img{width:100%;}
+html,body{ height:100%; width:100%; padding:0px; margin:0px; position:relative; background-image:url(images/025.jpg); background-repeat:repeat; font-family:'Roboto', sans-serif;letter-spacing:0.3px; line-height:30px;}
+h1{ font-family:'Roboto', sans-serif; font-weight:300; text-transform:uppercase; margin-left:auto; margin-right:auto;}
+p{ font-family:'Roboto', sans-serif; letter-spacing:0.3px; line-height:40px; font-weight:500; text-align:justify;font-size:28px; color:rgba(51,51,51,0.7);}
+ul,li{ font-family:'Roboto', sans-serif; letter-spacing:0.3px; line-height:40px; font-weight:500; text-align:justify; font-size:28px; color:rgba(51,51,51,0.7);}
+.row:after,.row:before{display:table;content:" "}.row:after{clear:both}
+.space{ padding-top:5%;}
+.label1{ font-family:'Roboto', sans-serif; font-weight:900; font-size:90px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase; text-shadow:rgba(51,51,51,1) 1px 5px 10px; margin-top:18%; margin-bottom:2%;}
+.label2{ font-family:'Roboto', sans-serif; font-weight:900; font-size:49px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase;color:rgba(165,42,42,1);}
+.label3{ font-family:'Roboto', sans-serif; font-weight:500; font-size:34px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase;color:rgba(165,42,42,1); text-align:center;}
+.Lp{
+	width:100%;
+	background-image:/*url(images/clarisse-meyer-162874.jpg),*/ url(images/banner-2.jpg);
+	background-position:center;
+	background-size:cover;
+	color:rgba(255,255,255,1);
+	height:100%;
+	background-repeat:no-repeat;
+	padding:0%;
+}
+.pcontent{
+	padding-top:4%;
+	padding-bottom:4%;
+	padding-left:3%;
+	padding-right:3%;
+}
+.jb{width:80%; margin-top:4%;}
+.bio{width:90%; margin-left:auto; margin-right:auto;}
+.bcol{ width:50%; float:left;}
+.btn{ border:1px solid white; text-shadow:rgba(51,51,51,0.9) 1px 1px 2px; border-radius:3px; padding:15px; display:inline-block; margin:20px; margin-top:5%; box-shadow:rgba(51,51,51,1) 1px 3px 10px; background-color:rgba(255,255,255,0.3); font-size:22px; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:link { color:#FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:visited { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:hover { color: #FFF; text-decoration:underline; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:active { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+.colb{width:50%; float:left;}
+.colgap{ padding-left:5%; padding-right:5%;}
+.1{ width:50%;}
+/**************Navigation************/
+.nav{
+	position:fixed;
+	width:100%;
+	height:50px;
+	padding-left:5%;
+	padding-right:5%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Roboto', sans-serif; font-weight:500;
+	background-color:rgba(51,51,51,0.5);
+	color:rgba(234,234,234,1);
+	z-index:20;
+	text-transform:uppercase;
+	word-spacing:10.5px;
+	font-size:24px;
+	padding-top:1%;
+	display:block;
+}
+.mnav{
+	position:fixed;
+	width:100%;
+	height:5%;
+	padding-left:1%;
+	padding-right:1%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Roboto', sans-serif; font-weight:500;
+	background-color:rgba(51,51,51,0.5);
+	color:rgba(234,234,234,1);
+	z-index:19;
+	text-transform:uppercase;
+	word-spacing:1.5px;
+	font-size:12px;
+	padding-top:0%;
+	display:none;
+}
+.words{ font-family:'Roboto', sans-serif; font-weight:500; font-size:28px; font-style:italic; padding-left:5%; padding-right:5%;color:rgba(51,51,51,0.7);}
+.client{ font-family:'Roboto', sans-serif; font-weight:300; font-size:25px; text-align:center; padding-left:5%; padding-right:5%;color:rgba(51,51,51,0.7);}
+/**************Navigation************/
+.foot{
+	width:100%;
+	background-color:rgba(51,51,51,1);
+}
+.fcol{ width:50%; color:rgba(235,235,235,1); float:left; text-align:center; background-color:rgba(51,51,51,0.6); padding-top:0.5%; padding-bottom:0.5%; font-size:17px;}
+a.fl:link { color:#FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:visited { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:hover { color: #FFF; text-decoration:underline; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:active { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+/*****************Contact******************/
+.cont{
+	width:50%; font-family:'Roboto', sans-serif; font-weight:500; color:rgba(51,51,51,1); font-size:28px; padding-top:1%; line-height:40px;
+	float:left;
+}
+.contact{ width:100%; padding:10%; color:rgba(51,51,51,0.7);}
+}
+
+@media only screen and (max-width: 1300px){
+img{width:100%;}
+html,body{ height:100%; width:100%; padding:0px; margin:0px; position:relative; background-image:url(images/025.jpg); background-repeat:repeat; font-family:'Roboto', sans-serif;letter-spacing:0.3px; line-height:30px;}
+h1{ font-family:'Roboto', sans-serif; font-weight:300; text-transform:uppercase; margin-left:auto; margin-right:auto;}
+p{ font-family:'Roboto', sans-serif; letter-spacing:0.3px; line-height:38px; font-weight:500; text-align:justify;font-size:24px; color:rgba(51,51,51,0.7);}
+ul,li{ font-family:'Roboto', sans-serif; letter-spacing:0.3px; line-height:38px; font-weight:500; text-align:justify; font-size:24px; color:rgba(51,51,51,0.7);}
+.row:after,.row:before{display:table;content:" "}.row:after{clear:both}
+.space{ padding-top:5%;}
+.label1{ font-family:'Roboto', sans-serif; font-weight:900; font-size:90px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase; text-shadow:rgba(51,51,51,1) 1px 5px 10px; margin-top:25%; margin-bottom:2%;}
+.label2{ font-family:'Roboto', sans-serif; font-weight:900; font-size:56px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase;color:rgba(165,42,42,1);}
+.label3{ font-family:'Roboto', sans-serif; font-weight:500; font-size:28px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase;color:rgba(165,42,42,1); text-align:center;}
+.Lp{
+	width:100%;
+	background-image:/*url(images/clarisse-meyer-162874.jpg),*/ url(images/banner-2.jpg);
+	background-position:center;
+	background-size:cover;
+	color:rgba(255,255,255,1);
+	height:100%;
+	background-repeat:no-repeat;
+	padding:0%;
+}
+.pcontent{
+	padding-top:4%;
+	padding-bottom:4%;
+	padding-left:3%;
+	padding-right:3%;
+}
+.jb{width:80%; margin-top:4%;}
+.bio{width:90%; margin-left:auto; margin-right:auto;}
+.bcol{ width:50%; float:left;}
+.btn{ border:1px solid white; text-shadow:rgba(51,51,51,0.9) 1px 1px 2px; border-radius:3px; padding:15px; display:inline-block; margin:20px; margin-top:5%; box-shadow:rgba(51,51,51,1) 1px 3px 10px; background-color:rgba(255,255,255,0.3); font-size:22px; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:link { color:#FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:visited { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:hover { color: #FFF; text-decoration:underline; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:active { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+.colb{width:50%; float:left;}
+.colgap{ padding-left:5%; padding-right:5%;}
+.1{ width:50%;}
+/**************Navigation************/
+.nav{
+	position:fixed;
+	width:100%;
+	height:50px;
+	padding-left:5%;
+	padding-right:5%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Roboto', sans-serif; font-weight:500;
+	background-color:rgba(51,51,51,0.5);
+	color:rgba(234,234,234,1);
+	z-index:20;
+	text-transform:uppercase;
+	word-spacing:10.5px;
+	font-size:24px;
+	padding-top:1%;
+	display:block;
+}
+.mnav{
+	position:fixed;
+	width:100%;
+	height:5%;
+	padding-left:1%;
+	padding-right:1%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Roboto', sans-serif; font-weight:500;
+	background-color:rgba(51,51,51,0.5);
+	color:rgba(234,234,234,1);
+	z-index:19;
+	text-transform:uppercase;
+	word-spacing:1.5px;
+	font-size:12px;
+	padding-top:0%;
+	display:none;
+}
+.words{ font-family:'Roboto', sans-serif; font-weight:500; font-size:24px; font-style:italic; padding-left:5%; padding-right:5%;color:rgba(51,51,51,0.7);}
+.client{ font-family:'Roboto', sans-serif; font-weight:300; font-size:20px; text-align:center; padding-left:5%; padding-right:5%;color:rgba(51,51,51,0.7);}
+/**************Navigation************/
+.foot{
+	width:100%;
+	background-color:rgba(51,51,51,1);
+}
+.fcol{ width:50%; color:rgba(235,235,235,1); float:left; text-align:center; background-color:rgba(51,51,51,0.6); padding-top:0.5%; padding-bottom:0.5%; font-size:17px;}
+a.fl:link { color:#FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:visited { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:hover { color: #FFF; text-decoration:underline; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:active { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+/*****************Contact******************/
+.cont{
+	width:50%; font-family:'Roboto', sans-serif; font-weight:500; color:rgba(51,51,51,1); font-size:24px; padding-top:1%;
+	float:left;
+}
+.contact{ width:100%; padding:10%; color:rgba(51,51,51,0.7);}
+}
+
+@media only screen and (max-width: 1024px){
+img{width:100%;}
+html,body{ height:100%; width:100%; padding:0px; margin:0px; position:relative; background-image:url(images/025.jpg); background-repeat:repeat; font-family:'Roboto', sans-serif;letter-spacing:0.3px; line-height:30px;}
+h1{ font-family:'Roboto', sans-serif; font-weight:300; text-transform:uppercase; margin-left:auto; margin-right:auto;}
+p{ font-family:'Roboto', sans-serif; letter-spacing:0.3px; line-height:30px; font-weight:500; text-align:justify;font-size:21px; color:rgba(51,51,51,0.7);}
+ul,li{ font-family:'Roboto', sans-serif; letter-spacing:0.3px; line-height:30px; font-weight:500; text-align:justify; font-size:20px; color:rgba(51,51,51,0.7);}
+.row:after,.row:before{display:table;content:" "}.row:after{clear:both}
+.space{ padding-top:10%;}
+.label1{ font-family:'Roboto', sans-serif; font-weight:900; font-size:90px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase; text-shadow:rgba(51,51,51,1) 1px 5px 10px; margin-top:25%; margin-bottom:10%;}
+.label2{ font-family:'Roboto', sans-serif; font-weight:900; font-size:56px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase;color:rgba(165,42,42,1);}
+.label3{ font-family:'Roboto', sans-serif; font-weight:500; font-size:28px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase;color:rgba(165,42,42,1); text-align:center;}
+.Lp{
+	width:100%;
+	background-image:/*url(images/clarisse-meyer-162874.jpg),*/ url(images/banner-2.jpg);
+	background-position:center;
+	background-size:cover;
+	color:rgba(255,255,255,1);
+	height:100%;
+	background-repeat:no-repeat;
+	padding:0%;
+}
+.pcontent{
+	padding-top:4%;
+	padding-bottom:4%;
+	padding-left:3%;
+	padding-right:3%;
+}
+.jb{width:50%; margin-top:4%;}
+.bio{width:85%; margin-left:auto; margin-right:auto;}
+.bcol{ width:100%; float:none;}
+.btn{ border:1px solid white; text-shadow:rgba(51,51,51,0.9) 1px 1px 2px; border-radius:3px; padding:15px; display:inline-block; margin:20px; margin-top:5%; box-shadow:rgba(51,51,51,1) 1px 3px 10px; background-color:rgba(255,255,255,0.3); font-size:22px; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:link { color:#FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:visited { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:hover { color: #FFF; text-decoration:underline; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:active { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+.colb{width:50%; float:left;}
+.colgap{ padding-left:5%; padding-right:5%;}
+.1{ width:50%;}
+/**************Navigation************/
+.nav{
+	position:fixed;
+	width:100%;
+	height:50px;
+	padding-left:5%;
+	padding-right:5%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Roboto', sans-serif; font-weight:500;
+	background-color:rgba(51,51,51,0.5);
+	color:rgba(234,234,234,1);
+	z-index:20;
+	text-transform:uppercase;
+	word-spacing:10.5px;
+	font-size:24px;
+	padding-top:1%;
+	display:block;
+}
+.mnav{
+	position:fixed;
+	width:100%;
+	height:5%;
+	padding-left:1%;
+	padding-right:1%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Roboto', sans-serif; font-weight:500;
+	background-color:rgba(51,51,51,0.5);
+	color:rgba(234,234,234,1);
+	z-index:19;
+	text-transform:uppercase;
+	word-spacing:1.5px;
+	font-size:12px;
+	padding-top:0%;
+	display:none;
+}
+.words{ font-family:'Roboto', sans-serif; font-weight:500; font-size:24px; font-style:italic; padding-left:5%; padding-right:5%;color:rgba(51,51,51,0.7);}
+.client{ font-family:'Roboto', sans-serif; font-weight:300; font-size:20px; text-align:center; padding-left:5%; padding-right:5%;color:rgba(51,51,51,0.7);}
+/**************Navigation************/
+.foot{
+	width:100%;
+	background-color:rgba(51,51,51,1);
+}
+.fcol{ width:50%; color:rgba(235,235,235,1); float:left; text-align:center; background-color:rgba(51,51,51,0.6); padding-top:0.5%; padding-bottom:0.5%; font-size:17px;}
+a.fl:link { color:#FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:visited { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:hover { color: #FFF; text-decoration:underline; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:active { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+/*****************Contact******************/
+.cont{
+	width:50%; font-family:'Roboto', sans-serif; font-weight:500; color:rgba(51,51,51,1); font-size:18.5px; padding-top:1%;
+	float:left;
+}
+.contact{ width:100%; padding:5%; color:rgba(51,51,51,0.7);}
+}
+
+@media only screen and (max-device-width : 750px){
+img{width:100%;}
+html,body{ height:100%; width:100%; padding:0px; margin:0px; position:relative; background-image:url(images/025.jpg); background-repeat:repeat; font-family:'Roboto', sans-serif;letter-spacing:0.3px; line-height:30px;}
+h1{ font-family:'Roboto', sans-serif; font-weight:300; text-transform:uppercase;}
+p{ font-family:'Roboto', sans-serif; letter-spacing:0.3px; line-height:28px; font-weight:500; text-align:justify;font-size:16px; color:rgba(51,51,51,0.7);}
+ul,li{ font-family:'Roboto', sans-serif; letter-spacing:0.3px; line-height:28px; font-weight:500; text-align:justify; font-size:16px; color:rgba(51,51,51,0.7);}
+.row:after,.row:before{display:table;content:" "}.row:after{clear:both}
+.space{ padding-top:20%;}
+.label1{ font-family:'Roboto', sans-serif; font-weight:900; font-size:40px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase; text-shadow:rgba(51,51,51,1) 1px 5px 10px; margin-top:25%; margin-bottom:20%;}
+.label2{ font-family:'Roboto', sans-serif; font-weight:900; font-size:26px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase;color:rgba(165,42,42,1);}
+.label3{ font-family:'Roboto', sans-serif; font-weight:500; font-size:20px; margin-left:auto; margin-right:auto; display:inline-block; text-transform:uppercase;color:rgba(165,42,42,1); text-align:center;}
+.Lp{
+	width:100%;
+	background-image:/*url(images/clarisse-meyer-162874.jpg),*/ url(images/banner-2.jpg);
+	background-position:center;
+	background-size:cover;
+	color:rgba(255,255,255,1);
+	height:100%;
+	background-repeat:no-repeat;
+	padding:0%;
+}
+.pcontent{
+	padding-top:4%;
+	padding-bottom:4%;
+	padding-left:3%;
+	padding-right:3%;
+}
+.bio{width:90%; margin-left:auto; margin-right:auto;}
+.bcol{ width:100%; float:none;}
+.btn{ border:1px solid white; text-shadow:rgba(51,51,51,0.9) 1px 1px 2px; border-radius:3px; padding:8px; display:inline-block; margin:20px; margin-top:5%; box-shadow:rgba(51,51,51,1) 1px 3px 10px; background-color:rgba(255,255,255,0.3); font-size:14px; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:link { color:#FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:visited { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:hover { color: #FFF; text-decoration:underline; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.lab:active { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+.colb{width:100%; float:left;}
+.colgap{ padding-left:5%; padding-right:5%;}
+.1{ width:50%;}
+/**************Navigation************/
+.nav{
+	position:fixed;
+	width:100%;
+	height:5.3%;
+	padding-left:5%;
+	padding-right:5%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Roboto', sans-serif; font-weight:500;
+	background-color:rgba(51,51,51,0.5);
+	color:rgba(234,234,234,1);
+	z-index:20;
+	text-transform:uppercase;
+	word-spacing:10.5px;
+	font-size:2.0vh;
+	padding-top:0.6%;
+	display:none;
+}
+.mnav{
+	position:fixed;
+	width:100%;
+	height:5%;
+	padding-left:1%;
+	padding-right:1%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Roboto', sans-serif; font-weight:500;
+	background-color:rgba(51,51,51,0.5);
+	color:rgba(234,234,234,1);
+	z-index:19;
+	text-transform:uppercase;
+	word-spacing:1.5px;
+	font-size:12px;
+	padding-top:0%;
+	display:block;
+}
+.words{ font-family:'Roboto', sans-serif; font-weight:500; font-size:18px; font-style:italic; padding-left:5%; padding-right:5%;color:rgba(51,51,51,0.7);}
+.client{ font-family:'Roboto', sans-serif; font-weight:300; font-size:16px; text-align:center; padding-left:5%; padding-right:5%;color:rgba(51,51,51,0.7);}
+/**************Navigation************/
+.foot{
+	width:100%;
+	background-color:rgba(51,51,51,1);
+}
+.fcol{ width:100%; color:rgba(235,235,235,1); float:left; text-align:center; background-color:rgba(51,51,51,0.6); padding-top:0.5%; padding-bottom:0.5%; font-size:12px;}
+a.fl:link { color:#FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:visited { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:hover { color: #FFF; text-decoration:underline; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+a.fl:active { color: #FFF; text-decoration:none; font-weight:normal; font-family:'Roboto', sans-serif; font-weight:300;}
+/*****************Contact******************/
+.cont{
+	width:100%; font-family:'Roboto', sans-serif; font-weight:500; color:rgba(51,51,51,1); font-size:14px; padding-top:1%;
+	float:none;
+}
+.contact{ width:100%; padding:5%; color:rgba(51,51,51,0.7);}
+}
